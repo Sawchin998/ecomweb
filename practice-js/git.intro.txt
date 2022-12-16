@@ -1,0 +1,133 @@
+PM Tools 
+    => Jira 
+    => trello 
+    => Asana 
+    => Phabricator 
+1
+Milestones 0    15 delivery
+Repo set 
+
+15
+
+3 devs
+
+2 BE 
+1 FE
+
+P. Managers
+A   ==========> 3 days  ==========> git  
+B   =====================> 5 days   ======> 
+C   =====>
+
+
+Git 
+Online Service (Repository)
+    - gitlab
+    - github
+    - bitbucket
+Offline Machine (local git)
+
+
+A 
+    Non empty 
+Local A 
+
+Histroy   
+
+Repo => dev assign
+- clone 
+
+- We can link remote with local
+
+
+Tree structure 
+
+Main trunk 
+    - Branch 
+        - sub-branch 
+            - leaf 
+
+commits, 
+merge,
+push 
+
+
+
+Local 
+Onine 
+
+
+
+- Automation 
+    - 3 server ( DevOps / CI-CD / Pipelines )
+            - dev           (dev Access)
+            - staging       ( limited access)
+            - UAT           ( Client Access )
+            - production    ( online )
+
+// Git Commands
+
+// One time setup 
+
+git config --global user.name "Your Name"
+git config --global user.email "Your email"
+
+
+clip < C:/Users/user/.ssh/id_rsa.pub
+
+
+
+cd c:
+cd Users/username/
+
+##### One time Commands
+- git init 
+    => this will initialize the empty git repository in our local project
+- git remote add <name> <Remote_url>
+
+// history set 
+###### Everytime execute 
+a. Push Operation 
+
+### staging
+    ## Tracking add 
+    - git add <filename> 
+    or 
+    - git add .
+
+    ## Commiting your code
+    - git commit -m "Commit message"
+
+a. Push Operation
+    - git push <name> <current_branch>:<destination_branch>
+b. Pull Operation
+    - git pull <name> <source_branch>
+
+### Cloning The project
+- git clone url
+
+
+## To create a new branch
+- git checkout -b <branchNew>
+
+Backlog 
+
+Kanban 7-10 sprint planning 
+80h
+1 story point => 4h
+Board 200h
+
+TODO    InProgress  Testing     UAT     Done
+
+
+dev     ====> dev 
+stag    =====> Staging 
+prod    =====> master
+
+# TO switch to a new branch 
+git checkout -b BranchName
+# TO switch to existing branch
+git checkout branch_name
+
+# to view all the branch in local repository
+git branch

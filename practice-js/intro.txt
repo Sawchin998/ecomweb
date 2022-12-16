@@ -1,0 +1,70 @@
+Basic 
+git 
+Node
+Express 
+    - API 
+MongoDB 
+    - Storage
+- BE - API 
+React 
+    - HTML / CSS 
+    - Css Framework - Bootstrap 
+                    - tailwind
+    - React 
+    - App build 
+    - Redux 
+- Deploy
+- Submit 1 
+
+Nodejs 
+VS CODE 
+
+Javascript 
+
+Typescript
+
+
+SPA 
+    => Single Page Application 
+
+API 
+
+BE 
+    - Admin Panel / CMS 
+        - express 
+FE 
+    - Web 
+
+Web
+Web-applications    => React js
+Mobile - App => React Native
+
+OOp
+interface InterfaceName{
+    getName();
+}
+
+class User implements InterfaceName{
+    getName() {
+
+    }
+}
+
+
+traits 
+trait InterfaceName{
+    getName(){
+
+    }
+}
+
+class User {
+    // trait users 
+    use TraitName;
+}
+React 
+    ---> js 
+
+.js 
+.ts ===> .js 
+/tsx

@@ -1,0 +1,243 @@
+- you need a project 
+- package / module
+- import export 
+- Es5 / Es6
+- Event Loop
+
+
+Version :   ~2.8.5 ====> 2.8.3
+            ^2.8.5  ====> 3.0.0
+            2.8.5   ====> 2.8.5
+
+upgrade.update.patch
+- sms introdu
+    - 1.0.0
+- call feature 
+    - 2.0.0
+        - 2.1.0
+            - 2.1.1
+
+// date 
+    - express 4
+        - 4 
+        - 3 weeks 
+            5
+
+
+// 3 app 
+a. Postman
+b. Insomnia 
+c. Thunder Client
+
+- Variable name => caps_cade
+- object name => camelCase
+- Model-table => SnakeCase
+- API respose => always => 
+    {
+        result: <any>,
+        msg: String|object,
+        status: Boolean
+    }
+
+- Product
+- Banner 
+- Gateway 
+- User 
+- Role 
+- Category 
+- Transactions
+- Logistics 
+- Brand 
+- Order 
+- Inventory
+
+User
+    - User add 
+    - User update
+    - User Delete 
+    - User List 
+    - User Role 
+    - Dashboard 
+        - Order 
+Brand 
+Category
+Product 
+Order 
+
+Browse 
+Category 
+    Cart
+Filter/search
+Add to cart 
+Cart page 
+Checkout 
+
+HMS
+- Customer Module 
+    - Table Reserve 
+    - Menu Browsing 
+    - Order Generate 
+    - XP calculation 
+
+- Kitchen Module 
+    - Order check 
+    - Processing 
+    - Delivered 
+
+- Waiter Module 
+    - Ready Order 
+    - Deliver ( physical implement)
+
+- Counter Module 
+    - Table check 
+        - Order Detail 
+    - payment Process
+
+- server 
+    - Mongodb 
+        - NoSQL 
+            - Not only SQL 
+
+- Relational DBMS 
+- Non-Relational DBMS
+
+
+
+
+
+
+
+
+
+orders 
+------------------
+id      user      product            qty             amount 
+------------------------------------------------------------------------------------------
+1       1         1                    1             298000
+------------------------------------------------------------------------------------------
+2       1         1                   1               298000
+------------------------------------------------------------------------------------------
+3       2         1                   1               298000
+
+
+
+users               products
+-------------       ----------------------------
+id  name            id  name            price
+-------------       ----------------------------
+1   Ram             1   Mac Book Pro    298000
+------------        ----------------------------
+2   Ram
+
+
+NoSQL
+    - huge amount operation 
+    - Data structure relational Structure if does not need to be maintained
+    - Data storage huge 
+    - Dynamic data storage 
+
+- local server 
+- Cloud hosting 
+    - Atlas 
+        - 512 mb cluster free 
+        - pay per use 
+
+- For windows to setup env 
+    => click on windows 
+    => strat typing 
+        edit system environment Variable
+    
+
+
+mongodb => 
+    > mongodb => protocol
+    > host => localhost / 127.0.0.1
+    > Port => 27017 
+    > user default 
+    > dbUrl=> mongodb://localhost:27017/db_name
+    > dbUrl atlas => mongodb+srv://username:password@localhost:27017/db_name
+
+- CRUD 
+    - Create, read , Update, delete 
+
+- Create 
+    - db.collection_name.insert(json)
+        - json => [{}], {}
+    - return is acknowledgement 
+
+- Read 
+    - db.collection_name.find(filter, projection)
+        - filter is an object 
+            - {
+                key: value
+            }   
+             => equivalent to = operation 
+                -> key = value
+            - {
+                $operator : filter
+            }
+
+
+        - age 
+            - 
+            {
+                age: {
+                    $gte: {
+                        // operator
+                    }
+                }
+            }
+
+
+role => {name: "admin", _id: "123kghj123jhg123", status: "active}
+user => {name: "", role_id: "123kghj123jhg123"}
+
+{name: "", role_id: {name: "admin", _id: "123kghj123jhg123", status: "active}}
+
+Mongoose 
+    - ODM 
+
+-> Connect and selecte db 
+-> Query / data modelling 
+-> execute 
+
+mongodb
+pgsql
+Mysql 
+
+
+
+Laravel 
+    mysql / Sql server 
+    -> ORM
+        - Object Relational Mapping/modelling
+
+Node 
+    mongodb 
+        -> ODM 
+            - Object Document mapping/Modelling
+
+users
+    - users table ====> User Model 
+    - rows of data ====> User Model instance 
+    - columns of the table ====> User Model prperties
+        name, email, password  =====> user_obj.name, user_obj.email, user_obj.password
+
+
+-- 
+    users collection =====> User Model 
+    document ==============> User Model instance 
+    document keys =========> Properties of User Model
+
+users, 
+    - name  : string, not null, , 
+    email, password, role, status, image, address, 
+    phone 
+products
+Brand
+
+
+/product/create => post, logged in user, admin
+
+===> login
+        -> token => access_token 
